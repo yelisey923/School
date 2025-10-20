@@ -75,8 +75,20 @@ int main()
 
     cout << "\n\nmetods test: ";
     cout << "\nsquare = " << angle1.Square();
-    cout << 
+    cout << "\nhypot = " << angle1.Hypot();
+
+    RightAngle angle_copy(angle1);
+
+    angle_copy.GetData();
+
+    cout << "\n\nEnter new katet = " << r_katet1;
+    cout << "\nEnter new katet = " << r_katet2;
+
+    angle1.SetData(r_katet1, r_katet2);
+
+    cout << "RIghtAngle was changed";
+
+    angle_copy.GetData();
+
 
 }
-
-
